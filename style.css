@@ -6,6 +6,16 @@
 }
 
 
+@font-face {
+    font-family: prometo;
+    src: url(font/Prometo_Trial_XBd.ttf);
+}
+
+@font-face {
+    font-family: prometo_light;
+    src: url(font/Prometo_Trial_Md.ttf);
+}
+
 
 
 html,
@@ -110,7 +120,7 @@ p {
     text-transform: lowercase;
     font-size: 28px;
     font-weight: 400;
-    font-family: prometo !important;
+    font-family: prometo_light !important;
 }
 
 .banner .words {
