@@ -110,7 +110,7 @@ p {
     text-transform: lowercase;
     font-size: 28px;
     font-weight: 400;
-    font-family: prometo;
+    font-family: prometo !important;
 }
 
 .banner .words {
@@ -120,6 +120,7 @@ p {
 }
 
 .banner span {
+    font-family: prometo !important;
     color: #00b7ff;
     display: block;
     font-size: 60px;
@@ -276,9 +277,11 @@ p {
 .aboutus .content h2 {
     margin-top: 40px;
     color: #DA344D;
+    font-family: prometo !important;
 }
 
 .aboutus .content span {
+    font-family: prometo !important;
     color: #454545;
 }
 
@@ -325,10 +328,12 @@ p {
 .sectionservice h2 {
     margin-top: 40px;
     color: #F1D302;
+    font-family: prometo !important;
 }
 
 .sectionservice span {
     color: #e6e6e6;
+    font-family: prometo !important;
 }
 
 
@@ -372,10 +377,12 @@ p {
 .our_service h2 {
     margin-top: 60px;
     color: #274C77;
+    font-family: prometo !important;
 }
 
 .our_service h2 span {
     color: #454545;
+    font-family: prometo !important;
 }
 
 .our_service p {
@@ -506,10 +513,12 @@ p {
 .ourTeam .image .title h2 {
     color: #F0F66E;
     line-height: 52px;
+    font-family: prometo !important;
 }
 
 .ourTeam .image .title h2 span {
     color: #ffffff;
+    font-family: prometo !important;
 }
 
 
@@ -575,10 +584,12 @@ p {
     color: #ffffff;
     line-height: 60px;
     text-shadow: 0px -10px 12px #0000000c;
+    font-family: prometo !important;
 }
 
 .career .img h1 span {
     color: #C14953;
+    font-family: prometo !important;
 }
 
 
@@ -596,11 +607,13 @@ p {
     margin-top: 60px;
     line-height: 50px;
     color: #454545;
+    font-family: prometo !important;
 }
 
 
 .career .text h2 span {
     color: #C14953;
+    font-family: prometo !important;
 }
 
 
