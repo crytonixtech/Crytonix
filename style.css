@@ -463,8 +463,8 @@ p {
     padding: 0px 25px;
     font-size: 11px;
     line-height: 18px;
-    text-align: center;
-    hyphens: auto;
+    text-align: left;
+    hyphens: none;
     color: #818181;
 }
 
