@@ -135,44 +135,47 @@ p {
     display: block;
     font-size: 60px;
     text-transform: uppercase;
-    animation: spin_words 20s infinite;
+    animation: spin_words 15s ease-in-out 1s infinite;
     overflow: hidden;
-
 }
 
 
+
+
 @keyframes spin_words {
-    10% {
+    13% {
         transform: translateY(0);
     }
 
-    25% {
+    26% {
         transform: translateY(0);
     }
 
-    35% {
+    39% {
         transform: translateY(-100%);
     }
 
-    50% {
+    52% {
         transform: translateY(-100%);
     }
 
-    60% {
+    63% {
         transform: translateY(-200%);
     }
 
-    75% {
+    76% {
         transform: translateY(-200%);
     }
 
-    85% {
+    89% {
         transform: translateY(-300%);
     }
 
     100% {
         transform: translateY(-300%);
     }
+
+
 }
 
 .banner h1 {
