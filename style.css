@@ -135,42 +135,43 @@ p {
     display: block;
     font-size: 60px;
     text-transform: uppercase;
-    animation: spin_words 10s infinite;
+    animation: spin_words 20s infinite;
     overflow: hidden;
+
 }
 
 
 @keyframes spin_words {
     10% {
-        transform: translateY(-100);
+        transform: translateY(0);
     }
 
     25% {
-        transform: translateY(-100%);
+        transform: translateY(0);
     }
 
     35% {
-        transform: translateY(-200%);
+        transform: translateY(-100%);
     }
 
     50% {
-        transform: translateY(-200%);
+        transform: translateY(-100%);
     }
 
     60% {
-        transform: translateY(-300%);
+        transform: translateY(-200%);
     }
 
     75% {
-        transform: translateY(-300%);
+        transform: translateY(-200%);
     }
 
     85% {
-        transform: translateY(-400%);
+        transform: translateY(-300%);
     }
 
     100% {
-        transform: translateY(-400%);
+        transform: translateY(-300%);
     }
 }
 
